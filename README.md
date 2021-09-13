@@ -14,7 +14,7 @@ chmod 755 run_generic_tarball_xrootd.sh
 cd $CMSSW_BASE/src
 scram b -j 6
 
-# not clone the repository
+# now clone the repository
 mkdir Configuration && cd Configuration
 git clone .../GenProduction
 cd ..
